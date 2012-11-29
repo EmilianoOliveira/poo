@@ -1,0 +1,15 @@
+package br.ufpb.sistemadepedidos;
+
+import java.util.List;
+
+public interface InterfaceSistemaDeControle{
+
+	
+	public void adicionaPedido(Pedido p);
+
+	
+	public List<Pedido> pesquisaPedidosIncuindoProduto(String codProduto);
+
+	
+	public void removePedido(long numPedido);
+}
